@@ -1,0 +1,326 @@
+#conteneur
+{
+    flex-wrap: wrap;
+}
+
+.header
+{
+width: 100%;
+height: 40px;
+background-color: brown;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.hebergement
+{
+    color: blue;
+    /*margin-left: 20px;*/
+}
+.inscrire
+{
+    color: blue;
+   /* margin-left: 20px;*/
+}
+/*.activite
+{
+margin-left: 20px;
+}*/
+.partie2
+{
+    display:flex;
+    background-color: chartreuse;
+    justify-content:space-around;
+    
+}
+#menu
+{
+    width: 100%;
+    height: 100px;
+    /*background-color: rgb(55, 17, 223);*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rechercher
+{
+    background-color: coral;
+    height: 50%;
+    width: 30%;
+    justify-content: flex-start;
+    display: flex;
+    
+}
+.bouton
+{
+   /* background-color: blue;*/
+    border:blue;
+    border-radius: 10px;
+    /*color: rgb(111, 16, 235);*/
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 15px;
+    cursor: pointer;
+}
+.filtres
+{
+background-color: chartreuse;
+/*height: 40%;
+/*width: 65%;*/
+display: flex;
+justify-content: space-between;
+}
+.economique
+{
+    border-width: 1px;
+    border-style:solid;
+    border-radius: 15px;
+    border-color: black;
+   /* width: 15%;*/
+    text-align: center;
+    font-weight: bold;
+    
+}
+.familial
+{
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 15px;
+   /* width: 15%;*/
+    text-align: center;
+    font-weight: bold;
+}
+.romantique
+{
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 15px;
+   /* width: 15%;*/
+    text-align: center;
+    font-weight: bold;
+}
+.animaux
+{
+    border-width: 1px;
+    border-style:solid;
+    border-color: black;
+    border-radius: 15px;
+   /* width: 20%;*/
+    text-align: center;
+    font-weight: bold;
+}
+.touthebergement
+{
+    display: flex;
+    height: auto;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+}
+.case
+{
+    width: 50%;
+    height: auto;
+     background-color:blueviolet;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.hebergement1
+{
+    width: 100%;
+    height: 3%;
+    background-color:blueviolet;
+}
+/*.case1
+{
+width: 30%;
+height: 30%;
+background-color: burlywood;
+}
+
+.case2
+{
+    background-color: burlywood;
+    width: 30%;
+    height: 30%;
+}
+.case3
+{
+    background-color: burlywood;
+    width: 30%;
+    height: 30%;
+}
+.case4
+{
+    background-color: burlywood;
+    width: 30%;
+    height: 30%;
+}
+
+.case5
+{
+    background-color: burlywood;
+    width: 30%;
+    height: 30%;
+}
+.case6
+{
+    background-color: burlywood;
+    width: 30%;
+    height: 30%;
+}*/
+.afficher
+{
+    width: 100%;
+    height: 2%;
+    background-color:rgb(197, 184, 209);
+    text-align: left;
+}
+.a
+{
+    /*font-size: small;
+    color: dimgrey;*/
+    flex-wrap: wrap;
+    
+}
+.populaire
+{
+    width: 100%;
+   /* height: 3%;*/
+    background-color: rgb(44, 150, 150);
+    display: flex;
+
+}
+
+.case7
+{
+   /* background-color: burlywood;*/
+    width: 100%;
+   /* height: 27%;*/
+    display: flex;
+}
+.case8
+{
+   /* background-color:burlywood;*/
+    width: 100%;
+    /*height: 27%;*/
+    display: flex;
+}
+.case9
+{
+    /*background-color: burlywood;*/
+    width: 100%;
+   /* height: 27%;*/
+    display: flex;
+}
+
+
+.populaire2
+{
+    width: 45%;
+    background-color: rgb(44, 150, 150);
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-between;
+   
+}
+.activite1
+{width: 100%;
+   /* height: 5%;*/
+    background-color: cornsilk;
+    font-weight: bold;
+}
+.acti
+{
+    width: auto;
+    height: 200px;
+    padding: 10px;
+    background-color: brown; 
+    padding-inline-end: 10px;
+     flex-direction: column;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+    .ph1
+    {
+       height: 100%;
+        width: 20%;
+        /*background-color: burlywood;*/
+    }
+    .ph2
+    {
+        height: 45%;
+        width: 20%;
+        /*background-color: burlywood;*/
+    
+    }
+    .ph3
+    {
+        height: 45%;
+        width: 20%;
+        /*background-color: burlywood;*/
+    }
+    .ph4
+    {
+        height: 100%;
+        width: 20%;
+       /* background-color: burlywood;*/
+    }
+    .ph5
+    {
+        height: 45%;
+        width: 20%;
+        /*background-color: burlywood;*/
+    }
+    .ph6
+    {
+        height: 45%;
+        width: 20%;
+       /* background-color: burlywood;*/
+    }
+#pieddepage
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(64, 158, 182);
+    justify-content:flex-start;
+    display: flex;
+    padding-top: 20px;
+
+    
+}
+p
+    {
+        font-weight: bold;
+     }
+     #pieddepage > div
+{
+margin-right: 150px;
+}
+
+@media all and (max-width: 700px)
+ {
+  .header, .rechercher, .partie2, .a, .filtres, .hebergement, .acti, #pieddepage
+     {
+         /*height:auto;*/
+         flex-direction: column;        
+       /* text-align: left;*/
+     }
+     .haut 
+     {
+         flex-direction: column;
+     }
+    .touthebergement
+    {
+        flex-direction: column;
+       
+    }
+    
+}    
